@@ -1,14 +1,1 @@
-{
-  "name": "nodejs-demo-app",
-  "version": "1.0.0",
-  "description": "A demo Node.js application using Express",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "author": "kvikash668",
-  "license": "ISC"
-}
+{\n  "name": "nodejs-demo-app",\n  "version": "1.0.0",\n  "description": "MindConnect Microservices",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo \\"Error: no test specified\\" && exit 1\"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "mongoose": "^5.11.15",\n    "axios": "^0.21.1"\n  },\n  "devDependencies": {\n    "nodemon": "^2.0.6"\n  },\n  "engines": {\n    "node": ">=10.0.0"\n  }\n}
